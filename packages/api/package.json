@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "nexus": "^0.26.1",
-    "nexus-plugin-prisma": "^0.16.1"
+    "nexus-plugin-prisma": "^0.17.0"
   },
   "devDependencies": {
     "@prisma/cli": "^2.3.0",
