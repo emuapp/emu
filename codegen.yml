@@ -1,0 +1,14 @@
+schema:
+  - packages/api/api.graphql
+overwrite: true
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+generates:
+  packages/web/graphql.ts:
+    documents:
+      - "packages/web/**/*.{ts,tsx}"
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
