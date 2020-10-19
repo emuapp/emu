@@ -11012,10 +11012,10 @@ ts-morph@^7.1.3:
     "@ts-morph/common" "~0.5.2"
     code-block-writer "^10.1.0"
 
-ts-node-dev@^1.0.0-pre.59:
-  version "1.0.0-pre.60"
-  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.0.0-pre.60.tgz#428b051264d9b2b3e58a8a4a02a5d36692436e20"
-  integrity sha512-S1X/2dMH2cxzFEiOWo5r/DTD0oElKbEpG8lnWoEA1LrwxXMFCJs71vIMaXPu6p8ud3MHMI2Ans3syDQ8mkjEUg==
+ts-node-dev@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.0.0.tgz#24a2270d225c29ce269de2a31f88b1b259fc84cb"
+  integrity sha512-leA/3TgGtnVU77fGngBwVZztqyDRXirytR7dMtMWZS5b2hGpLl+VDnB0F/gf3A+HEPSzS/KwxgXFP7/LtgX4MQ==
   dependencies:
     chokidar "^3.4.0"
     dateformat "~1.0.4-1.2.3"
@@ -11026,7 +11026,7 @@ ts-node-dev@^1.0.0-pre.59:
     rimraf "^2.6.1"
     source-map-support "^0.5.12"
     tree-kill "^1.2.2"
-    ts-node "^8.10.2"
+    ts-node "^9.0.0"
     tsconfig "^7.0.0"
 
 ts-node@^8.10.2:
